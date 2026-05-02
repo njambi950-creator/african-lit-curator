@@ -1,27 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lugha & Lore | Add Book</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Lugha & Lore</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Bookshelf</a></li>
-                <li><a href="add-book.html" class="active">Add New Book</a></li>
-                <li><a href="spotlight.html">Author Spotlight</a></li>
-            </ul>
-        </nav>
+      <h1>Lugha & Lore</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Bookshelf</a></li>
+          <li><a href="add-book.html" class="active">Add New Book</a></li>
+          <li><a href="spotlight.html">Author Spotlight</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="form-container">
-            <h2>Add a New Masterpiece</h2>
-            <form id="book-form">
-                <div class="input-group">
-                    <label for="title">Book Title:</label>
-                    <input type="text" id="title" required placeholder="e.g. The River Between">
+      <section class="form-container">
+        <h2>Add a New Masterpiece</h2>
+        <form id="book-form">
+          <div class="input-group">
+            <label for="title">Book Title:</label>
+            <input
+              type="text"
+              id="title"
+              required
+              placeholder="e.g. The River Between"
+            />
+          </div>
+          <div class="input-group">
+                    <label for="author">Author:</label>
+                    <input type="text" id="author" required placeholder="e.g. Ngũgĩ wa Thiong'o">
                 </div>
+
+                <div class="input-group">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
