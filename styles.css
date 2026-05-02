@@ -38,6 +38,47 @@ nav a {
     gap: 20px;
     padding: 20px;
 }
+.book-card {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 8px;        /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* 5. THE FORM - Explained: Centers the box and styles inputs */
+.form-container {
+    max-width: 400px;          /* Prevents form from being too wide */
+    margin: 50px auto;         /* Centers the box on the page */
+    background: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input, select, textarea {
+    width: 100%;               /* Make inputs full width of the container */
+    padding: 10px;
+    margin: 10px 0;            /* Adds space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--accent-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;           /* Shows the hand icon on hover */
+}
+
+/* 6. RESPONSIVENESS - Explained: Changes layout for small screens */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Stacks menu items vertically on mobile */
+        align-items: center;
+    }
+}
 
 
 
