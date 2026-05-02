@@ -5,3 +5,12 @@
     --light-gray: #f4f7f6;      /* Background color */
     --white: #ffffff;
 }
+/* 2. BASE STYLES */
+body {
+    font-family: Arial, sans-serif; /* Standard, reliable font */
+    background-color: var(--light-gray);
+    margin: 0;
+    padding: 0;
+}
+
+
