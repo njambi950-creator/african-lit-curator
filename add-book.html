@@ -31,32 +31,39 @@
             />
           </div>
           <div class="input-group">
-                    <label for="author">Author:</label>
-                    <input type="text" id="author" required placeholder="e.g. Ngũgĩ wa Thiong'o">
-                </div>
+            <label for="author">Author:</label>
+            <input
+              type="text"
+              id="author"
+              required
+              placeholder="e.g. Ngũgĩ wa Thiong'o"
+            />
+          </div>
 
-                <div class="input-group">
-                    <label for="genre">Genre:</label>
-                    <select id="genre" required>
-                        <option value="">--Select Genre--</option>
-                        <option value="Afrofantasy">Afrofantasy</option>
-                        <option value="Classic">Classic Literature</option>
-                        <option value="Contemporary">Contemporary Fiction</option>
-                        <option value="Traditional">Traditional Folklore</option>
-                    </select>
-                </div>
-                <div class="input-group">
-                    <label for="review">Your Reflection:</label>
-                    <textarea id="review" rows="4" placeholder="What did this story teach you?"></textarea>
-                </div>
+          <div class="input-group">
+            <label for="genre">Genre:</label>
+            <select id="genre" required>
+              <option value="">--Select Genre--</option>
+              <option value="Afrofantasy">Afrofantasy</option>
+              <option value="Classic">Classic Literature</option>
+              <option value="Contemporary">Contemporary Fiction</option>
+              <option value="Traditional">Traditional Folklore</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="review">Your Reflection:</label>
+            <textarea
+              id="review"
+              rows="4"
+              placeholder="What did this story teach you?"
+            ></textarea>
+          </div>
 
-                <button type="submit" id="save-btn">Save to Library</button>
-            </form>
-            <div id="message-area"></div>
-        </section>
-    </main>
+          <button type="submit" id="save-btn">Save to Library</button>
         </form>
+        <div id="message-area"></div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
