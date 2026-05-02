@@ -1,0 +1,7 @@
+/* 1. THEME COLORS - Using variables makes it easy to explain consistency */
+:root {
+    --primary-blue: #2c3e50;    /* Professional Dark Blue */
+    --accent-blue: #3498db;     /* Bright Action Blue */
+    --light-gray: #f4f7f6;      /* Background color */
+    --white: #ffffff;
+}
