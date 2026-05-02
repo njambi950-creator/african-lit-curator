@@ -12,5 +12,18 @@ body {
     margin: 0;
     padding: 0;
 }
+/* 3. NAVIGATION - Explained: Flexbox centers the menu items */
+header {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;             /* Align items in a row */
+    justify-content: center;   /* Center them horizontally */
+    list-style: none;          /* Remove bullet points */
+    padding: 0;
+}
 
 
