@@ -32,8 +32,10 @@ if (bookForm) {
     localStorage.setItem("myLibrary", JSON.stringify(myLibrary));
     //stringify because local storage saves stirngs not objects
 
-    alert("Book Saved");
-    window.location.href = "index.html"; // Move user to bookshelf
+    // after you save to localStorage
+    alert("📚 Book added to Lugha & Lore successfully!");
+    // Redirect back to the bookshelf automatically
+    window.location.href = "index.html";
   });
 }
 // 2. SHOWING DATA-index.html
@@ -70,6 +72,7 @@ if (spotlightStats) {
   const books = JSON.parse(localStorage.getItem("myLibrary")) || [];
   spotlightStats.innerHTML = `<h3>You have cataloged ${books.length} books.</h3>`;
 }
+
 //3. DELETING DATA
 function deleteBook(index) {
   let myLibrary = JSON.parse(localStorage.getItem("myLibrary"));
