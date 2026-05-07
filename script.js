@@ -32,7 +32,7 @@ if (bookForm) {
     localStorage.setItem("myLibrary", JSON.stringify(myLibrary));
     //stringify because local storage saves stirngs not objects
 
-    // after you save to localStorage
+    // after saving to localStorage
     alert("📚 Book added to Lugha & Lore successfully!");
     // Redirect back to the bookshelf automatically
     window.location.href = "index.html";
