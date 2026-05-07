@@ -22,7 +22,7 @@ and Chimamanda Ngozi Adichie.
 
 ### Author Information
 *   **Name:** Maryann Njambi Ngugi
-*   **GitHub:** 
+*   **GitHub:** https://github.com/njambi950-creator
 
 ### Setup Instructions
 
