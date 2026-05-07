@@ -45,3 +45,16 @@ if (displayArea) {
         // Create a new div element (DOM Manipulation)
         const card = document.createElement('div');
         card.className = 'book-card';  
+    // Set the internal HTML (Side-by-side layout)
+        card.innerHTML = `
+            <div class="card-image-box">
+                <img src="${book.coverUrl}">
+            </div>
+            <div class="card-info-box">
+                <h3>${book.title}</h3>
+                <p>By: ${book.author}</p>
+                <span class="genre-tag">${book.genre}</span>
+                <p>${book.review}</p>
+                <button onclick="deleteBook(${index})">Remove</button>
+            </div>
+        `;    
