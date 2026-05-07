@@ -12,17 +12,41 @@ body {
   margin: 0;
   padding: 0;
 }
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0;
+  
+}
 
+.header-logo {
+    height: 180px; 
+    width: auto;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    filter: contrast(150%);
+    display: block;
+    margin: 0;
+}
+h2{
+    font-family: "dancing script";
+    font-size: 25px;
+}
 /* 3. NAVIGATION */
 header {
   background-color: var(--white);
-  padding: 20px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 0;
 }
 header h1 {
   margin: 0;
+  line-height: 1;
   font-size: 50px;
   color: purple;
   font-family: "dancing script";
@@ -31,7 +55,8 @@ header h1 {
 nav ul {
   display: flex; /* Align items in a row */
   justify-content: center; /* Center them horizontally */
-  list-style: none; /* Remove bullet points */
+  list-style: none; 
+  margin-top: 0;
   padding: 0;
 }
 
@@ -85,7 +110,7 @@ main{
 
 /* 5. THE FORM - Explained: Centers the box and styles inputs */
 .form-container {
-  background-color: #f0f0f0;
+  background-color: rgb(220, 184, 220);
   padding: 30px;
   border-radius: 10px;
   max-width: 450px;
@@ -180,4 +205,7 @@ button {
     nav li {
         margin: 0 10px;
     }
+}
+footer{
+    text-align: center;
 }
