@@ -15,4 +15,12 @@ if (bookForm) {
         if (title === "" || author === "") {
             alert("Please fill in the required fields!");
             return;
-        }
+        };
+        // 3. Create a simple object
+        const newBook = {
+            title: title,
+            author: author,
+            genre: genre,
+            review: review,
+            coverUrl: coverUrl || "https://via.placeholder.com/150" // fallback image
+        };
