@@ -40,3 +40,8 @@ const displayArea = document.getElementById('book-display-area');
 if (displayArea) {
     // 1. Get data from LocalStorage
     const savedBooks = JSON.parse(localStorage.getItem('myLibrary')) || [];
+  // 2. Loop through the books and create HTML for each
+    savedBooks.forEach((book, index) => {
+        // Create a new div element (DOM Manipulation)
+        const card = document.createElement('div');
+        card.className = 'book-card';  
