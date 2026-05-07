@@ -16,9 +16,9 @@ and Chimamanda Ngozi Adichie.
 2.  **Persistence:** JavaScript captures the input and saves it to the browser's **localStorage**.
 3.  This ensures the library remains intact even if the page is refreshed or the browser is closed.
 4.  **Dynamic Display:** The application retrieves the stored data and dynamically generates "Book Cards"
-5.   on the main bookshelf using DOM manipulation.
+     on the main bookshelf using DOM manipulation.
 6.  **Discovery:** Users can visit the "Author Spotlight" page to learn more about the cultural significance
-7.  and history of the authors featured in their collection.
+  and history of the authors featured in their collection.
 
 ### Author Information
 *   **Name:** Maryann Njambi Ngugi
