@@ -60,12 +60,17 @@ if (displayArea) {
                 <button onclick="deleteBook(${index})">Remove</button>
             </div>
         `;
+
     // Add the card to the page
     displayArea.appendChild(card);
   });
 }
-
-   //3. DELETING DATA 
+const spotlightStats = document.getElementById("spotlight-stats");
+if (spotlightStats) {
+  const books = JSON.parse(localStorage.getItem("myLibrary")) || [];
+  spotlightStats.innerHTML = `<h3>You have cataloged ${books.length} books.</h3>`;
+}
+//3. DELETING DATA
 function deleteBook(index) {
   let myLibrary = JSON.parse(localStorage.getItem("myLibrary"));
   myLibrary.splice(index, 1); // Remove item at this index
