@@ -108,14 +108,21 @@ main{
     color: #555;
 }
 
-/* 5. THE FORM - Explained: Centers the box and styles inputs */
+/* 5. THE FORM */
+.form-page-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
 .form-container {
   background-color: rgb(220, 184, 220);
   padding: 30px;
   border-radius: 10px;
-  max-width: 450px;
+  max-width: 800px;
+  width: 90%;
   box-shadow: rgba(0, 0, 0, 0.1);
-  text-align: center;
+  
 }
 .form-title {
   color: #d88a8a;
@@ -191,7 +198,7 @@ button {
 
 .card-info-box {
     padding: 20px;
-    flex: 1; /* Takes up the rest of the space */
+    flex: 1;
 }
 /* 7. design(For Mobile) */
 @media (max-width: 600px) {
