@@ -7,4 +7,7 @@ if (bookForm) {
         e.preventDefault(); // Stop page from refreshing
  1. Get values from the input boxes
         const title = document.getElementById('title').value;
-        const author = 
+        const author = document.getElementById('author').value;
+        const genre = document.getElementById('genre').value;
+        const review = document.getElementById('review').value;
+        const coverUrl = document.getElementById('coverUrl').value;
