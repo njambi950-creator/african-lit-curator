@@ -24,7 +24,7 @@ if (bookForm) {
       review: review,
       coverUrl: coverUrl || "https://via.placeholder.com/150", // fallback image
     };
-    // 4. Persistence: Save to LocalStorage
+    // 4.Saving to LocalStorage
     // Get old books, add new one, save back
     let myLibrary = JSON.parse(localStorage.getItem("myLibrary")) || [];
     myLibrary.push(newBook);
@@ -34,3 +34,5 @@ if (bookForm) {
     window.location.href = "index.html"; // Redirect to bookshelf
   });
 }
+// 2. SHOWING DATA-index.html
+const displayArea = document.getElementById('book-display-area');
