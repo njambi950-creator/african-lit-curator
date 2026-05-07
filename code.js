@@ -58,3 +58,17 @@ if (displayArea) {
                 <button onclick="deleteBook(${index})">Remove</button>
             </div>
         `;    
+// Add the card to the page
+        displayArea.appendChild(card);
+    });
+}
+
+/* ==========================================
+   3. DELETING DATA (Extra Interaction)
+   ========================================== */
+function deleteBook(index) {
+    let myLibrary = JSON.parse(localStorage.getItem('myLibrary'));
+    myLibrary.splice(index, 1); // Remove item at this index
+    localStorage.setItem('myLibrary', JSON.stringify(myLibrary)); // Save back
+    location.reload(); // Refresh page to see it's gone
+}
