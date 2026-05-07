@@ -36,3 +36,7 @@ if (bookForm) {
 }
 // 2. SHOWING DATA-index.html
 const displayArea = document.getElementById('book-display-area');
+// If we are on the Bookshelf page...
+if (displayArea) {
+    // 1. Get data from LocalStorage
+    const savedBooks = JSON.parse(localStorage.getItem('myLibrary')) || [];
