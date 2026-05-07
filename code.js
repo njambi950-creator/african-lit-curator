@@ -5,3 +5,6 @@ const bookForm = document.getElementById('book-form');
 if (bookForm) {
     bookForm.addEventListener('submit', function(e) {
         e.preventDefault(); // Stop page from refreshing
+ 1. Get values from the input boxes
+        const title = document.getElementById('title').value;
+        const author = 
